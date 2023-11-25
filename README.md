@@ -8,7 +8,7 @@ This repository contains a Windows Driver Model (WDM) project developed in C++. 
 
 - Custom WDM driver for Windows 7 and later
 - User-mode process for interacting with the driver
-- IOCTLs for sharing handles to processes with the user-mode process
+- IOCTLs for setting thread priorities
 
 ## **Usage**
 
@@ -16,7 +16,7 @@ This repository contains a Windows Driver Model (WDM) project developed in C++. 
 2. Open the project in Visual Studio 2019.
 3. Build the driver and user-mode process.
 4. Install the driver.
-5. Run the user-mode process to interact with the driver and obtain handles to processes.
+5. Run the user-mode process to interact with the driver and set thread priorities.
 
 ## **Debugging and Analysis**
 
